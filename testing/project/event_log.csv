@@ -1,0 +1,101 @@
+process,key,from,to,timestamp
+be002 [Transportation],isstarted,False,True,01.02.2022 08:00
+be002 [Transportation],statustmstp,01.02.2022 08:00,01.02.2022 10:00,01.02.2022 08:00
+be002 [Transportation],isfinished,False,True,01.02.2022 08:00
+be002 [Transportation],endtime,01.02.2022 09:00:00,01.02.2022 10:00:00,01.02.2022 08:00
+be001 [Transportation],statustmstp,01.02.2022 08:00,01.02.2022 10:00,01.02.2022 08:00
+be001 [Transportation],isfinished,False,True,01.02.2022 08:00
+be001 [Transportation],endtime,01.02.2022 09:00:00,01.02.2022 10:00:00,01.02.2022 08:00
+be001 [Transportation],isstarted,False,True,01.02.2022 08:00
+be0045 [Transportation],isstarted,False,True,01.02.2022 10:00
+be0045 [Transportation],starttime,01.02.2022 09:00:00,01.02.2022 10:00:00,01.02.2022 10:00
+be003 [Transportation],isstarted,False,True,01.02.2022 10:00
+be003 [Transportation],starttime,01.02.2022 09:00:00,01.02.2022 10:00:00,01.02.2022 10:00
+be001 [Form],isstarted,False,True,01.02.2022 10:00
+be001 [Form],starttime,01.02.2022 09:00:00,01.02.2022 10:00:00,01.02.2022 10:00
+be0045 [Transportation],statustmstp,01.02.2022 10:00,01.02.2022 11:00,01.02.2022 10:00
+be0045 [Transportation],isfinished,False,True,01.02.2022 10:00
+be0045 [Transportation],endtime,01.02.2022 10:00:00,01.02.2022 11:00:00,01.02.2022 10:00
+be003 [Transportation],statustmstp,01.02.2022 10:00,01.02.2022 11:00,01.02.2022 10:00
+be003 [Transportation],isfinished,False,True,01.02.2022 10:00
+be003 [Transportation],endtime,01.02.2022 10:00:00,01.02.2022 11:00:00,01.02.2022 10:00
+be006 [Transportation],isstarted,False,True,01.02.2022 11:00
+be006 [Transportation],starttime,01.02.2022 10:00:00,01.02.2022 11:00:00,01.02.2022 11:00
+be001 [Form],isfinished,False,True,01.02.2022 10:00
+be001 [Form],endtime,01.02.2022 11:00:00,01.02.2022 12:00:00,01.02.2022 10:00
+be006 [Transportation],statustmstp,01.02.2022 11:00,01.02.2022 12:00,01.02.2022 11:00
+be006 [Transportation],isfinished,False,True,01.02.2022 11:00
+be006 [Transportation],endtime,01.02.2022 11:00:00,01.02.2022 12:00:00,01.02.2022 11:00
+be008 [Transportation],statustmstp,01.02.2022 12:00,01.02.2022 13:00,01.02.2022 12:00
+be008 [Transportation],isfinished,False,True,01.02.2022 12:00
+be008 [Transportation],endtime,01.02.2022 12:00:00,01.02.2022 13:00:00,01.02.2022 12:00
+be008 [Transportation],isstarted,False,True,01.02.2022 12:00
+be008 [Transportation],starttime,01.02.2022 11:00:00,01.02.2022 12:00:00,01.02.2022 12:00
+be001 [Reinforce],statustmstp,01.02.2022 12:00,01.02.2022 14:00,01.02.2022 12:00
+be001 [Reinforce],isfinished,False,True,01.02.2022 12:00
+be001 [Reinforce],endtime,01.02.2022 13:00:00,01.02.2022 14:00:00,01.02.2022 12:00
+be001 [Reinforce],isstarted,False,True,01.02.2022 12:00
+be001 [Reinforce],starttime,01.02.2022 11:00:00,01.02.2022 12:00:00,01.02.2022 12:00
+be010 [Transportation],statustmstp,01.02.2022 13:00,01.02.2022 14:00,01.02.2022 13:00
+be010 [Transportation],isfinished,False,True,01.02.2022 13:00
+be010 [Transportation],endtime,01.02.2022 13:00:00,01.02.2022 14:00:00,01.02.2022 13:00
+be010 [Transportation],isstarted,False,True,01.02.2022 13:00
+be010 [Transportation],starttime,01.02.2022 12:00:00,01.02.2022 13:00:00,01.02.2022 13:00
+be009 [Transportation],statustmstp,01.02.2022 13:00,01.02.2022 14:00,01.02.2022 13:00
+be009 [Transportation],isfinished,False,True,01.02.2022 13:00
+be009 [Transportation],endtime,01.02.2022 13:00:00,01.02.2022 14:00:00,01.02.2022 13:00
+be009 [Transportation],isstarted,False,True,01.02.2022 13:00
+be009 [Transportation],starttime,01.02.2022 12:00:00,01.02.2022 13:00:00,01.02.2022 13:00
+be011 [Transportation],statustmstp,01.02.2022 14:00,01.02.2022 15:00,01.02.2022 14:00
+be011 [Transportation],isfinished,False,True,01.02.2022 14:00
+be011 [Transportation],endtime,01.02.2022 14:00:00,01.02.2022 15:00:00,01.02.2022 14:00
+be011 [Transportation],isstarted,False,True,01.02.2022 14:00
+be011 [Transportation],starttime,01.02.2022 13:00:00,01.02.2022 14:00:00,01.02.2022 14:00
+be001 [Concrete],statustmstp,01.02.2022 14:00,11.02.2022 14:00,01.02.2022 14:00
+be001 [Concrete],isfinished,False,True,01.02.2022 14:00
+be001 [Concrete],endtime,11.02.2022 13:00:00,11.02.2022 14:00:00,01.02.2022 14:00
+be001 [Concrete],isstarted,False,True,01.02.2022 14:00
+be001 [Concrete],starttime,01.02.2022 13:00:00,01.02.2022 14:00:00,01.02.2022 14:00
+be012 [Transportation],statustmstp,01.02.2022 15:00,01.02.2022 16:00,01.02.2022 15:00
+be012 [Transportation],isfinished,False,True,01.02.2022 15:00
+be012 [Transportation],endtime,01.02.2022 15:00:00,01.02.2022 16:00:00,01.02.2022 15:00
+be012 [Transportation],isstarted,False,True,01.02.2022 15:00
+be012 [Transportation],starttime,01.02.2022 14:00:00,01.02.2022 15:00:00,01.02.2022 15:00
+be013 [Transportation],statustmstp,01.02.2022 16:00,02.02.2022 09:00,01.02.2022 16:00
+be013 [Transportation],isfinished,False,True,01.02.2022 16:00
+be013 [Transportation],endtime,02.02.2022 08:00:00,02.02.2022 09:00:00,01.02.2022 16:00
+be013 [Transportation],isstarted,False,True,01.02.2022 16:00
+be013 [Transportation],starttime,01.02.2022 15:00:00,01.02.2022 16:00:00,01.02.2022 16:00
+be014 [Transportation],statustmstp,02.02.2022 09:00,02.02.2022 10:00,02.02.2022 09:00
+be014 [Transportation],isfinished,False,True,02.02.2022 09:00
+be014 [Transportation],endtime,02.02.2022 09:00:00,02.02.2022 10:00:00,02.02.2022 09:00
+be014 [Transportation],isstarted,False,True,02.02.2022 09:00
+be014 [Transportation],starttime,02.02.2022 08:00:00,02.02.2022 09:00:00,02.02.2022 09:00
+be015 [Transportation],statustmstp,02.02.2022 10:00,02.02.2022 11:00,02.02.2022 10:00
+be015 [Transportation],isfinished,False,True,02.02.2022 10:00
+be015 [Transportation],endtime,02.02.2022 10:00:00,02.02.2022 11:00:00,02.02.2022 10:00
+be015 [Transportation],isstarted,False,True,02.02.2022 10:00
+be015 [Transportation],starttime,02.02.2022 09:00:00,02.02.2022 10:00:00,02.02.2022 10:00
+be016 [Transportation],statustmstp,02.02.2022 11:00,02.02.2022 12:00,02.02.2022 11:00
+be016 [Transportation],isfinished,False,True,02.02.2022 11:00
+be016 [Transportation],endtime,02.02.2022 11:00:00,02.02.2022 12:00:00,02.02.2022 11:00
+be016 [Transportation],isstarted,False,True,02.02.2022 11:00
+be016 [Transportation],starttime,02.02.2022 10:00:00,02.02.2022 11:00:00,02.02.2022 11:00
+be017 [Transportation],statustmstp,02.02.2022 12:00,02.02.2022 13:00,02.02.2022 12:00
+be017 [Transportation],isfinished,False,True,02.02.2022 12:00
+be017 [Transportation],endtime,02.02.2022 12:00:00,02.02.2022 13:00:00,02.02.2022 12:00
+be017 [Transportation],isstarted,False,True,02.02.2022 12:00
+be017 [Transportation],starttime,02.02.2022 11:00:00,02.02.2022 12:00:00,02.02.2022 12:00
+be018 [Transportation],statustmstp,02.02.2022 13:00,02.02.2022 14:00,02.02.2022 13:00
+be018 [Transportation],isfinished,False,True,02.02.2022 13:00
+be018 [Transportation],endtime,02.02.2022 13:00:00,02.02.2022 14:00:00,02.02.2022 13:00
+be018 [Transportation],isstarted,False,True,02.02.2022 13:00
+be018 [Transportation],starttime,02.02.2022 12:00:00,02.02.2022 13:00:00,02.02.2022 13:00
+be019 [Transportation],statustmstp,02.02.2022 14:00,02.02.2022 15:00,02.02.2022 14:00
+be019 [Transportation],isfinished,False,True,02.02.2022 14:00
+be019 [Transportation],endtime,02.02.2022 14:00:00,02.02.2022 15:00:00,02.02.2022 14:00
+be019 [Transportation],isstarted,False,True,02.02.2022 14:00
+be019 [Transportation],starttime,02.02.2022 13:00:00,02.02.2022 14:00:00,02.02.2022 14:00
+be020 [Transportation],isfinished,False,True,02.02.2022 15:00
+be020 [Transportation],endtime,02.02.2022 15:00:00,02.02.2022 16:00:00,02.02.2022 15:00
+be020 [Transportation],starttime,02.02.2022 14:00:00,02.02.2022 15:00:00,02.02.2022 15:00
