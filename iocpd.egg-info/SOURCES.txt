@@ -1,9 +1,0 @@
-README.md
-setup.py
-iocpd/__init__.py
-iocpd/functions.py
-iocpd.egg-info/PKG-INFO
-iocpd.egg-info/SOURCES.txt
-iocpd.egg-info/dependency_links.txt
-iocpd.egg-info/top_level.txt
-test/test_functions.py
