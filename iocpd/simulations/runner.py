@@ -37,13 +37,13 @@ import datetime
 from datetime import timedelta
 import random
 import pandas
-from ConfigReader.configreader import get_config
+from ..util.configreader import get_config
 
-from LeanSpiffWorkflow.workflow import Workflow
-from LeanSpiffWorkflow.task import Task
-from LeanSpiffWorkflow.getwfspec import get_wf_spec
+from ..leanspiff.workflow import Workflow
+from ..leanspiff.task import Task
+from ..leanspiff.getwfspec import get_wf_spec
 from SpiffWorkflow.exceptions import WorkflowException
-from Miner.miner import Miner
+from ..processmining.miner import Miner
 
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------

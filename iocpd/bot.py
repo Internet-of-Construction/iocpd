@@ -7,12 +7,10 @@ Created on Wed Mar  9 09:50:03 2022
 import os
 import asyncio
 import pandas
-from Crawler.crawler import Crawler
-from Crawler.crawler import Crawler2
-from Checker.check import get_updates
-from Miner.miner import Miner
-#from Visualizer.visualize import visualize
-from Runner.runner import Runner
+from .datamodel.crawler import Crawler
+from .util.check import get_updates
+from .processmining.miner import Miner
+from .simulations.runner import Runner
 
 
 #TODOs:::
@@ -54,8 +52,7 @@ class Bot():
         self.log_path = kwargs.get('log_path') or None
         
         # initialize all helping objects
-        #self.crawler = Crawler(uri = uri, endpoint = endpoint, name = name, pw = pw, database = database) # used for real data model
-        self.crawler = Crawler2(kwargs.get('local_processes_path') or self.project_path + 'processes/', self.processes) # used for local testing
+        self.crawler = Crawler(self.uri, self.endpoint, self.name, self.pw, self.processes)
         self.runner = Runner(project_path=self.project_path, bpmn_path=self.bpmn_path, config_path=self.runner_config_path, current_processes=self.processes,
                              times=kwargs.get('times'), transmission_times=kwargs.get('transmission_times'), costs=kwargs.get('costs'), cost_types=self.cost_types)
         self.miner = Miner(project_path=self.project_path, log_path=self.log_path, bpmn_path=self.bpmn_path, cost_types=self.cost_types)

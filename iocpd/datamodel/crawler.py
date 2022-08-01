@@ -8,16 +8,16 @@ Created on Wed Mar  9 08:17:23 2022
 import asyncio
 import websockets
 import json
-from Read.reader import get_processes_from_json
+from .util.reader import get_processes_from_json
 
 class Crawler():
-    def __init__(self, uri, endpoint, name, pw, database):
+    def __init__(self, uri, endpoint, name, pw, database, processes):
         self.uri = uri
         self.endpoint = endpoint
         self.name = name
         self.pw = pw
         self.database = database
-        self.processes = None
+        self.processes = processes
         self.updated = False
     
     
