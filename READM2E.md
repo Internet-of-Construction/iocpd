@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jul 28 14:31:46 2022
@@ -5,10 +6,13 @@ Created on Thu Jul 28 14:31:46 2022
 @author: GarlefHupfer
 """
 
+=======
+>>>>>>> 1e1d2c647a6e37995e8eb018c4a16c689c07e4ef
 # Internet of Construction Project Dashboard
 Internet of Construction Project Dashboard
 
 Disclaimer: This work is part of the research project “Internet of Construction” that is funded by the Federal Ministry of Education and Research of Germany within the indirective on a joint funding initiative in the field of innovation for production, services and labor of tomorrow (funding number: 02P17D081) and supported by the project management agency “Projektträger Karlsruhe (PTKA)”. The authors are responsible for the content.
+<<<<<<< HEAD
 
 # Installation
 The library was coded in python 3.9. An anaconda environment is recommended for using it. Following packages are necessary:
@@ -32,3 +36,5 @@ The library was coded in python 3.9. An anaconda environment is recommended for 
 
 # Main Loop for updates
 ![Main loop](https://private-user-images.githubusercontent.com/90630691/250031519-fe62c3b1-ecb2-4561-b2a3-3c89ec3875c1.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg4MTEyMzU2LCJuYmYiOjE2ODgxMTIwNTYsInBhdGgiOiIvOTA2MzA2OTEvMjUwMDMxNTE5LWZlNjJjM2IxLWVjYjItNDU2MS1iMmEzLTNjODllYzM4NzVjMS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDYzMFQwODAwNTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZWU1YjkyODgwZDgyYjI1NTJmMzU1MTkwMGM5Yjc0MjEwMmQwODJlM2ZhNTJmODY0MzcxOTYwMTMxMGY0YTVjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.AlPb4EoAvHW-nxXW6Z0UJALUPTp5EQpeeJK0eUyHjI4))
+=======
+>>>>>>> 1e1d2c647a6e37995e8eb018c4a16c689c07e4ef
