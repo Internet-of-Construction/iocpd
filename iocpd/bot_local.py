@@ -18,7 +18,7 @@ class Bot():
         # initializing the project, loading the data
         self.project_path = project_path
         self.event_log = pandas.DataFrame(columns=['process', 'key', 'from', 'to', 'timestamp'])
-        self.next_activities = pandas.DataFrame(columns=['activity', 'until', 'relevance', 'started', 'starttime'])
+        self.next_activities = pandas.DataFrame(columns=['process', 'until', 'relevance', 'started', 'starttime'])
         self.processes = pandas.DataFrame(columns=['process', 'processtmstp', 'statustmstp', 'isfinished', 'resdescription', 'processauthor', 'processname', 
                                                    'endtime', 'isstarted', 'starttime', 'case:concept:name'])
         self.load_data()
